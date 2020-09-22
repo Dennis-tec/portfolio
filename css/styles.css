@@ -65,3 +65,32 @@ img{
 .projects{
   color: white;
 }
+#header{
+  text-align: center;
+}
+#projects{
+  columns: 3;
+  height: 300px;
+}
+.akhans{
+  background-image: url(../images/akhan-back.jpeg);
+  background-repeat: no-repeat;
+  background-size: 400px;
+  background-position: center;
+  height: 200px;
+  color: black;
+}
+.studio{
+  background-image: url(../images/studioback.jpeg);
+  background-repeat: no-repeat;
+  background-size: 400px;
+  background-position: center;
+  height: 200px;
+}
+.seenoi{
+  background-image: url(../images/pizza.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 400px;
+  height: 200px;
+}
