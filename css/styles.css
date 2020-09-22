@@ -4,7 +4,64 @@
   columns: 4;
   font-family: arial;
   font-size: 18px;
+  font-weight: bold;
   background: darkblue;
   color: white;
   padding-top: 20px;
+}
+.navbar:hover{
+  color: red;
+}
+.contain{
+background-color: darkgrey;
+}
+.intro{
+  color: darkblue;
+  background-image: url(../images/portfolio-home.jpg);
+  background-repeat: no-repeat;
+  background-size: 1050px;;
+
+}
+.lists{
+  columns: 3;
+}
+.intro:hover{
+  color: blue;
+  cursor: pointer;
+  text-transform: full-width;
+}
+#details{
+  font-size: 30px;
+  font-weight: bolder;
+}
+.experience{
+  font-size: 16px;
+  font-weight: bold;
+}
+.skills{
+  font-size: 18px;
+font-weight: bold;
+}
+.education{
+  font-size: 18px;
+  font-weight: bold;
+}
+#h1{
+  font-size: 16px;
+  font-weight: bold;
+}
+img{
+  border-radius: 41cm;
+  height: 300px;
+  width: 350px;
+}
+
+.image{
+  font-size: 16px;
+  font-weight: bolder;
+  text-decoration: inherit;
+  padding-top: 10px;
+}
+.projects{
+  color: white;
 }
