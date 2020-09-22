@@ -2,7 +2,9 @@
   cursor: context-menu;
   height: 10px;
   columns: 4;
-  font-family: monospace;
+  font-family: arial;
   font-size: 18px;
-  background: pink;
+  background: darkblue;
+  color: white;
+  padding-top: 20px;
 }
