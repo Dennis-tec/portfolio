@@ -10,7 +10,7 @@ $("document").ready(function(){
 } else if (!name) {
   alert("Enter your name!")
 } else {
-    alert(name+ ", I have received your messsage. I will get back to you in a few!");
+    alert(name+ ", I have receive your information. I will get back to you in a few!");
 }
   });
 })
