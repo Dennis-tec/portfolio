@@ -10,58 +10,64 @@
 <div class="contain">
   <div class="navbar">
       <ul>
-          <li class="left" class="active"<a href="#">Home</a></li>
-          <li class="left"><a href="#">Skills</a></li>
-          <li class="left"><a href="#">Experiences</a></li>
-          <li class="left"><a href="#">Education</a></li>
+          <li class="left" class="active"<a href="#details">Home</a></li>
+          <li class="left"><a href="#skills">Skills</a></li>
+          <li class="left"><a href="#experience">Experiences</a></li>
+          <li class="left"><a href="#education">Education</a></li>
+          <li class="left"><a href="#">Projects</a></li>
       </ul>
     </div>
     <div class="intro">
       <div class="lists">
-        <ul>
-          <span id="details"><li>Hi, <br> I'm Dennis Kamakei <br>welcome to my portfolio!</li>
+
+          <span id="details"><p>Hi, <br> I'm Dennis Kamakei, <br> android developer!</p>
           </span>
-        </ul>
-<div class="skills">
-<h4><strong><u>SKILLS</u></strong></h4>
+
+        </div>
+        <div class="image">
+          <h2><strong>About</strong></h2>
+<img src="./images/1585751120958.jpg" alt="my photo">
+  <div class="cards">
+    <p>I'm a professional web developer equiped with skills to design and layout professional websites for marketing, research, and other fields within business and education. I develop my websites using HTML5, CSS, Javascript, and Android </p>
+    </div>
+  </div>
+
+<div id="skills">
+<h4><strong><u>Skills</u></strong></h4>
     <ul>
       <li>Front-end and back-end Web development.</li>
       <li>Programming.</li>
-      <li>Finance development.</li>
+      <li>Finance and business development.</li>
       <li>Mathematic Statistics.</li>
+      <li>Data analysis</li>
     </ul>
     </div>
-    <div class="experience">
-    <h4><strong><u>EXPERIENCE</u></strong></h4>
+    <div id="experience">
+    <h4><strong><u>Experiences</u></strong></h4>
     <ul>
       <li>Worked at Equity bank, Kenya, as an accountant and relationship officer.</li>
       <li>Tutored KenSAP college students at M-PESA Foundaton Academy, Kenya.</li>
-      <li>Taught Mathematics and Physics at Thika Girls High School.</li>
+      <li>Taught Mathematics and Physics at Thika Girls High School,  Kenya.</li>
     </ul>
 
   </div>
-  </div>
-  <div class="education">
-  <h4><strong><u>EDUCATION</u></strong></h4>
+  <div id="education">
+  <h4><strong><u>Education</u></strong></h4>
   <ul>
-  <li>Undergraduate student at Haverford, USA.</li>
-  <li>Tenwek High School diploma graduate, Kenya.</li>
+  <li>Computer science and software engineering undergraduate student at Haverford, USA.</li>
   <li>KenSAP college graduate.</li>
+  <li>Tenwek High School diploma graduate, Kenya.</li>
 
   </ul>
 
 </div>
-<div class="image">
-  <img src="./images/1585751120958.jpg" alt="my photo">
-  <p>Passport photo of me </p>
-</div>
 
 </div>
-<div class="projects">
+<div id="projects">
 <span id="header">  <h3><strong><em><u>PROJECTS</u></em></strong></h3>
   <p>Below is a list of projects I have developed in my programming carrier</p>
 </span>
-  <div id="projects">
+  <div class="projects">
 <div class="akhans">
   <ul>
     <li><a href="https://dennis-tec.github.io/akhan-names/">Akhan Names Website:</a>This webpage contain details of Ghanian childrens names. Children in Ghana are names in accordance to the day of the week they were born. If a children do no recall their names as well as the day of the week they were born, they can simply enter their birthdate to get information relating to them. </li>
@@ -79,18 +85,28 @@
 </div>
   </div>
 </div>
+<div class="contact">
+<input type="button" class="btn btn-primary" style="font-weight: bolder" style="font-size: 16px" value="Contact">
+</div>
 <div class="fill">
   <span id="request"><p>Fill in your personal details if you want to get in touch with me.</p></span>
   <form class="" action="index.html" method="post">
     <div class="form-group">
       <label for="name">Name:
-      <input type="text" class="form-control" ></label>
+      <input type="text" class="form-control" id="name" ></label>
     </div>
     <div class="foorm-group">
       <label for="email">Email:
-      <input type="email" class="form-control"></label>
+      <input type="email" class="form-control" id="email"></label>
     </div>
+    <div class="form-group">
+    <label for="message">Message:<textarea name="text" id="message" class="form-control" rows="5" cols=""></textarea></label>
+    </div>
+    <input type="button" class="btn btn-info" style="font-weight: bold" value="Submit">
   </form>
+</div>
+<div class="copy">
+  &copy 2020 All rights reserved.
 </div>
   </div>
   </body>

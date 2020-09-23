@@ -1,7 +1,7 @@
 .navbar{
   cursor: context-menu;
   height: 10px;
-  columns: 4;
+  columns: 5;
   font-family: arial;
   font-size: 18px;
   font-weight: bold;
@@ -13,17 +13,20 @@
   color: red;
 }
 .contain{
-background-color: darkgrey;
+background-color: lightgrey;
 }
 .intro{
-  color: darkblue;
-  background-image: url(../images/portfolio-home.jpg);
+  color: blue;
   background-repeat: no-repeat;
-  background-size: 1050px;;
+
 
 }
 .lists{
-  columns: 3;
+  background-image: url(../images/portfolio-home.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 300px;
+  margin-left: 3%;
 }
 .intro:hover{
   color: blue;
@@ -31,29 +34,38 @@ background-color: darkgrey;
   text-transform: full-width;
 }
 #details{
-  font-size: 30px;
+  font-size: 35px;
   font-weight: bolder;
+  margin-left: 2%;
+  background-image: url(../images/portfolio-home.jpg);
+ background-size: contain;
+ background-repeat: no-repeat;
 }
-.experience{
+#experience{
   font-size: 16px;
   font-weight: bold;
+  margin-left: 5%;
+
 }
-.skills{
+#skills{
   font-size: 18px;
 font-weight: bold;
+margin-left: 5%;
 }
-.education{
+#education{
   font-size: 18px;
   font-weight: bold;
+  margin-left: 5%;
+
 }
 #h1{
   font-size: 16px;
   font-weight: bold;
 }
 img{
-  border-radius: 41cm;
-  height: 300px;
-  width: 350px;
+  border-radius: 40cm;
+  height: 250px;
+  width: 340px;
 }
 
 .image{
@@ -61,14 +73,17 @@ img{
   font-weight: bolder;
   text-decoration: inherit;
   padding-top: 10px;
+  text-align: center;
 }
-.projects{
+#projects{
   color: white;
 }
 #header{
   text-align: center;
+  color: blue;
+  font-size: 16px;
 }
-#projects{
+.projects{
   columns: 3;
   height: 300px;
 }
@@ -93,4 +108,39 @@ img{
   background-position: center;
   background-size: 400px;
   height: 200px;
+}
+.fill{
+  text-align: center;
+  background-image: url(../images/seenoi.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 400px;
+  color: white;
+}
+#request{
+  font-size: 16px;
+  font-weight: bold;
+}
+#name, #message, #email{
+  background: transparent;
+  color: white;
+}
+.contact{
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  padding-bottom: 12px;
+}
+.cards{
+  width: 300px;
+  text-align: left;
+  margin-left: 37.5%;
+  margin-right: 30%;
+}
+.copy{
+  text-align: center;
+  font-size: 17px;
+  font-weight: bold;
+  color: maroon;
 }
