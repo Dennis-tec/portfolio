@@ -1,3 +1,4 @@
-$("document").ready(function(){
-  $(".contain").slideDown();
-})
+function content(){
+  var elemnt=document.getElementById('content');
+  
+}
