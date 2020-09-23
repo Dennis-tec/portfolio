@@ -44,18 +44,22 @@ background-color: lightgrey;
 #experience{
   font-size: 16px;
   font-weight: bold;
-  margin-left: 5%;
+  margin-left: 20%;
+  margin-top: 5%;
 
 }
 #skills{
   font-size: 18px;
 font-weight: bold;
-margin-left: 5%;
+margin-left: 20%;
+margin-top: 5%;
+
 }
 #education{
   font-size: 18px;
   font-weight: bold;
-  margin-left: 5%;
+  margin-left: 20%;
+  margin-top: 5%;
 
 }
 #h1{
@@ -74,9 +78,11 @@ img{
   text-decoration: inherit;
   padding-top: 10px;
   text-align: center;
+  margin-top: 3%;
 }
 #projects{
   color: white;
+  margin-top: 5%;
 }
 #header{
   text-align: center;
