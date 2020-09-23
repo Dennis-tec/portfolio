@@ -1,3 +1,5 @@
+html{
+}
 .navbar{
   cursor: context-menu;
   height: 10px;
@@ -27,6 +29,7 @@ background-color: lightgrey;
   background-repeat: no-repeat;
   height: 300px;
   margin-left: 3%;
+  display: grid;
 }
 .intro:hover{
   color: blue;
@@ -79,6 +82,7 @@ img{
   padding-top: 10px;
   text-align: center;
   margin-top: 3%;
+
 }
 #projects{
   color: white;
@@ -90,30 +94,35 @@ img{
   font-size: 16px;
 }
 .projects{
-  columns: 3;
-  height: 300px;
+
 }
 .akhans{
   background-image: url(../images/akhan-back.jpeg);
   background-repeat: no-repeat;
-  background-size: 400px;
-  background-position: center;
-  height: 200px;
+  background-size: contain;
   color: black;
+  height: 250px;
+  width: 800px;
+margin-left: 25%;
+  margin-bottom: 5%;
 }
 .studio{
   background-image: url(../images/studioback.jpeg);
   background-repeat: no-repeat;
-  background-size: 400px;
-  background-position: center;
-  height: 200px;
+  background-size: contain;
+  height: 270px;
+  width: 800px;
+  margin-left: 25%;
+  margin-bottom: 5%;
 }
 .seenoi{
   background-image: url(../images/pizza.jpeg);
   background-repeat: no-repeat;
-  background-position: center;
-  background-size: 400px;
-  height: 200px;
+  background-size: contain;
+  height: 310px;
+  width: 800px;
+  margin-left: 25%;
+
 }
 .fill{
   text-align: center;
