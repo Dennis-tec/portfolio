@@ -3,11 +3,10 @@ margin-left: 0%;
 margin-right: 0%;
 max-width: 100%;
 background-color: lightgrey;
-white-space: nowrap;
 background-position: center;
 background-size: contain;
 height: 100vh;
-position: static;
+overflow-x: hidden;//horizontal overflow-y: scroll;//vertical
 }
 .navbar{
   cursor: context-menu;
@@ -25,7 +24,6 @@ position: static;
 }
 .contain{
   background-color: lightgrey;
-  height: 100vh;
 }
 
 }
