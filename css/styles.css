@@ -1,12 +1,12 @@
 html, body{
 margin-left: 0%;
 margin-right: 0%;
-width: 100%;
+max-width: 100%;
 background-color: lightgrey;
 white-space: nowrap;
 background-position: center;
 background-size: contain;
-opacity: 0.1s;
+height: 100vh;
 }
 .navbar{
   cursor: context-menu;
@@ -24,6 +24,7 @@ opacity: 0.1s;
 }
 .contain{
   background-color: lightgrey;
+  height: 100vh;
 }
 
 }
