@@ -20,7 +20,7 @@ opacity: 0.1s;
   padding-top: 20px;
 }
 .navbar:hover{
-  color: red;
+  color: pink;
 }
 .contain{
   background-color: lightgrey;
@@ -96,7 +96,7 @@ img{
   padding-top: 10px;
   text-align: center;
   margin-top: 3%;
-  color: blue;
+  color: white;
 
 }
 #projects{
