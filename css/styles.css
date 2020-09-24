@@ -28,7 +28,7 @@ opacity: 0.1s;
 
 }
 .intro{
-  color: blue;
+  color: white;
   background-repeat: no-repeat;
 }
 .lists{
@@ -51,7 +51,7 @@ opacity: 0.1s;
   background-image: url(../images/portfolio-home.jpg);
  background-size: contain;
  background-repeat: no-repeat;
- color: blue;
+ color: white;
 }
 #experience{
   font-size: 18px;
@@ -59,7 +59,7 @@ opacity: 0.1s;
   margin-left: 15%;
   margin-top: 5%;
   margin-right: 15%;
-  color: blue;
+  color: white;
 }
 #skills{
 font-size: 18px;
@@ -67,7 +67,7 @@ font-weight: bold;
 margin-left: 15%;
 margin-top: 5%;
 margin-right: 15%;
-color: blue;
+color: white;
 
 }
 #education{
@@ -76,7 +76,7 @@ color: blue;
   margin-left: 15%;
   margin-top: 5%;
   margin-right: 15%;
-  color: blue;
+  color: white;
 
 }
 #h1{
