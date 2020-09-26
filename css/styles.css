@@ -6,6 +6,7 @@ background-color: lightgrey;
 background-position: center;
 background-size: contain;
 height: 100vh;
+position: relative;
 overflow-x: hidden;//horizontal overflow-y: scroll;//vertical
 }
 .navbar{
@@ -22,8 +23,14 @@ overflow-x: hidden;//horizontal overflow-y: scroll;//vertical
 .navbar:hover{
   color: pink;
 }
+img:hover{
+  border-radius: 3cm;
+  background: transparent;
+  color: white;
+}
 .contain{
-  background-color: lightgrey;
+  background-color: darkslategrey;
+  position: relative;
 }
 
 }
@@ -88,7 +95,6 @@ img{
   height: 260px;
   width: 300px;
 }
-
 .image{
   font-size: 16px;
   font-weight: bolder;
@@ -97,7 +103,6 @@ img{
   text-align: center;
   margin-top: 3%;
   color: white;
-
 }
 #projects{
   color: white;
@@ -188,4 +193,14 @@ margin-left: 25%;
   color: black;
   margin-left: 32%;
   margin-right: 30%;
+}
+.header, #header{
+color: white;
+}
+.header{
+}
+@media all and (max-width: 768px){
+  .contain{
+    position: fixed;
+  }
 }
