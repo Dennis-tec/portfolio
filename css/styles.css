@@ -25,8 +25,8 @@ overflow-x: hidden;//horizontal overflow-y: scroll;//vertical
 }
 img:hover{
   border-radius: 3cm;
-  background: transparent;
-  color: white;
+cursor: context-menu;
+
 }
 .contain{
   background-color: darkslategrey;
