@@ -28,7 +28,6 @@ cursor: context-menu;
 }
 .contain{
   background-color: darkslategrey;
-position: relative;
   width: 100%;
 }
 
