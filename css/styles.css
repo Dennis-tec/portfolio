@@ -196,8 +196,9 @@ color: white;
 }
 .header{
 }
-@media all and (max-width: 768px){
+@media all and (max-width: 1268px){
   body{
 columns: 1;
+column-gap: 0;
   }
 }
