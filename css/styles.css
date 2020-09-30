@@ -198,7 +198,7 @@ color: white;
 .header{
 }
 @media all and (max-width: 768px){
-  .contain{
-    position: fixed;
+  body{
+columns: 1;
   }
 }
