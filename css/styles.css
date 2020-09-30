@@ -28,7 +28,7 @@ cursor: context-menu;
 }
 .contain{
   background-color: darkslategrey;
-  position: fixed;
+position: relative;
   width: 100%;
 }
 
