@@ -2,24 +2,40 @@ html, body{
 margin-left: 0%;
 margin-right: 0%;
 max-width: 100%;
-background-color: lightgrey;
+background-color: lightblue;
 background-position: center;
 background-size: contain;
-overflow-x: hidden;//horizontal overflow-y: scroll;//vertical
+overflow-x: hidden;
 }
 .navbar{
   cursor: context-menu;
-  height: 10px;
-  columns: 5;
+  height: 50px;
   font-family: arial;
-  font-size: 18px;
-  font-weight: bold;
-  background: darkblue;
+  background: indigo;
   color: white;
   padding-top: 20px;
+  padding-bottom: 10px;
 }
 .navbar:hover{
   color: pink;
+}
+#main{
+  font-weight: bold;
+}
+#top{
+  columns: 2;
+  column-gap: 2px;
+  align-content: center;
+  padding-left: 10px;
+  padding-right: 10px;
+
+}
+.navs{
+  display: none;
+  font-size: 18px;
+  background-color: maroon;
+  font-weight: bold;
+
 }
 img:hover{
   border-radius: 3cm;
@@ -27,7 +43,7 @@ cursor: context-menu;
 
 }
 .contain{
-  background-color: darkslategrey;
+  background-color: lightslategrey;
   width: 100%;
 }
 
@@ -201,4 +217,8 @@ color: white;
 columns: 1;
 column-gap: 0;
   }
+}
+.output{
+display: none;
+  background-color: white;
 }

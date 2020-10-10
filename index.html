@@ -2,8 +2,9 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>general-practise</title>
+    <title>my-portfolio</title>
     <link rel="stylesheet" href="css/styles.css" type="text/css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
 <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 <script src="js/scripts.js"></script>
@@ -11,13 +12,19 @@
   <body>
 <div class="contain" >
   <div class="navbar">
-      <ul>
-          <li class="left" id="h" class="active"<a href="#details">Home</a></li>
-          <li class="left" id="s"><a href="#skills">Skills</a></li>
+
+
+
+    <div id="top"> <i class="fa fa-bars" id="bar" style="color: white; font-size: 25px;"></i>
+<h5 id="main">KAMAKEI <br>PORFOLIO</h5></div>
+<div class="navs"> <ul>
+  <li class="left" id="h" class="active"<a href="#details">Home</a></li>
+
+        <li class="left" id="s"><a href="#skills">Skills</a></li>
           <li class="left" id="e"><a href="#experience">Experiences</a></li>
           <li class="left" id="ed"><a href="#education">Education</a></li>
           <li class="left" id="p"><a href="#projects">Projects</a></li>
-      </ul>
+      </div></ul>
     </div>
     <marquee behavior="slide" direction="down" scrollamount="500"
     <div id="content">
@@ -38,6 +45,7 @@
     <p>I'm a professional, self train, web developer equiped with skills to design and layout professional websites for marketing, research, and other fields within business and education. I develop appealing websites using HTML5, CSS, Javascript, and Android. </p>
     </div>
     <div class="socials">
+      <i class="fa fa-twitter"></i>
 <ul>
   <li>Email:ykamakei6345@gmail.com</li>
   <li>Phone.No:+254741847436</li>
@@ -120,9 +128,6 @@
     </div>
     <input type="button" id="button" class="btn btn-info" style="font-weight: bold" value="Submit" >
   </form>
-  <div class="output" dropzone="file:///home/dennis/Desktop/Dennis-Studio/index.html">
-
-  </div>
 </div>
 </div>
 <div class="copy">
@@ -130,7 +135,8 @@
 </div>
 </div>
 </marquee>
-
-  </div>
+<div class="output">
+<p><span id="maks"></span> Thank you for contacting Dennis company</p>
+</div>
   </body>
 </html>
