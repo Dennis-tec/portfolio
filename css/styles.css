@@ -335,3 +335,11 @@ display: none;
   font-weight: bolder;
 
 }
+media all and (max-width: 480px){
+  body{
+position: relative;
+  }
+  .projects{
+    columns: 0;
+  }
+}
