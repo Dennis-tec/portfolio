@@ -16,7 +16,5 @@ $("document").ready(function(){
     alert(name+ ", I have receive your information. I will get back to you in a few!");
 }
 })
-$("#bar").click(function(){
-  $(".navs").slideToggle();
 })
 })

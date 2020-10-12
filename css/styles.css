@@ -2,63 +2,90 @@ html, body{
 margin-left: 0%;
 margin-right: 0%;
 max-width: 100%;
-background-color: lightblue;
-background-position: center;
-background-size: contain;
 overflow-x: hidden;
+}
+.contain{
+  width: 100%;
+background-color: #594f8d;
+font-style: arial;
+position: relative;
+color: black;
+box-sizing: border-box;
+position: relative;
+}
+#side{
+  font-size: 17px;
+  font-weight: bold;
+}
+#sidebar{
+  font-size: 14px;
+  font-weight: bold;
+  background-repeat: no-repeat;
+  font-family: monospace;
+columns: 6;
 }
 .navbar{
   cursor: context-menu;
-  height: 50px;
+  height: 120px;
   font-family: arial;
   background: indigo;
   color: white;
   padding-top: 20px;
   padding-bottom: 10px;
+  margin-bottom: 0px;
+}
+.combine{
+
 }
 .navbar:hover{
   color: pink;
 }
 #main{
   font-weight: bold;
+  letter-spacing: 3px;
+animation: bounce 3s infinite;
+  display: block;
+}
+@keyframes bounce{
+0%{
+  color: #6ab04c;
+  letter-spacing: 25px;
+}
+
+}
+#search{
+  background-color: transparent;
+  color: white;
+  border-radius: 30cm;
+}
+#btn{
+  border-radius: 41cm;
 }
 #top{
-  columns: 2;
+  columns: 3;
   column-gap: 2px;
   align-content: center;
   padding-left: 10px;
   padding-right: 10px;
 
 }
-.navs{
-  display: none;
-  font-size: 18px;
-  background-color: maroon;
-  font-weight: bold;
 
-}
 img:hover{
   border-radius: 3cm;
 cursor: context-menu;
 
 }
-.contain{
-  background-color: lightslategrey;
-  width: 100%;
 }
+#intro{
 
-}
-.intro{
-  color: white;
-  background-repeat: no-repeat;
+
 }
 .lists{
   background-image: url(../images/portfolio-home.jpg);
   background-size: contain;
   background-repeat: no-repeat;
-  height: 300px;
+  height: 250px;
   display: grid;
-  width: 100%;
 }
 .intro:hover{
   cursor: pointer;
@@ -71,31 +98,49 @@ cursor: context-menu;
   background-image: url(../images/portfolio-home.jpg);
  background-size: contain;
  background-repeat: no-repeat;
- color: white;
+ color: black;
+
+}
+.skills h4, .experience h4, .education h4, .about, .header{
+  animation: text 4s infinite;
+  text-align: center;
+
+}
+.skills h4, .experience h4, .education h4{
+  font-size: 22px;
+  font-weight: bolder;
+  letter-spacing: 2px;
+}
+@keyframes text {
+  0%{
+    letter-spacing: 50px;
+    color: green;
+  }
 }
 #experience{
   font-size: 18px;
   font-weight: bold;
-  margin-left: 15%;
+  margin-left: 25%;
   margin-top: 5%;
-  margin-right: 15%;
+  margin-right: 25%;
   color: white;
 }
 #skills{
 font-size: 18px;
 font-weight: bold;
-margin-left: 15%;
+margin-left: 25%;
 margin-top: 5%;
-margin-right: 15%;
+margin-right: 25%;
 color: white;
 
 }
+
 #education{
   font-size: 18px;
   font-weight: bold;
-  margin-left: 15%;
+  margin-left: 25%;
   margin-top: 5%;
-  margin-right: 15%;
+  margin-right: 25%;
   color: white;
 
 }
@@ -104,7 +149,7 @@ color: white;
   font-weight: bold;
 }
 img{
-  border-radius: 15cm;
+  border-radius: 3cm;
   height: 260px;
   width: 300px;
 }
@@ -112,10 +157,32 @@ img{
   font-size: 16px;
   font-weight: bolder;
   text-decoration: inherit;
-  padding-top: 10px;
+  padding-top: 0px;
   text-align: center;
-  margin-top: 3%;
   color: white;
+}
+.languages{
+  color: white;
+padding-left: 60px;
+font-size: 20px;
+font-weight: bold;
+
+
+}
+.languages h5{
+  font-weight: bold;
+  font-size: 16px;
+}
+.language{
+  font-weight: bold;
+  font-size: 15px;
+  animation: denno 4s infinite;
+}
+@keyframes denno {
+  0%{
+    color: darkblue;
+    letter-spacing: 40px;
+  }
 }
 #projects{
   color: white;
@@ -131,34 +198,61 @@ img{
   color: blue;
   margin-right: 35%;
 }
+.projects{
+  columns: 3;
+}
 .akhans{
   background-image: url(../images/akhan-back.jpeg);
   background-repeat: no-repeat;
   background-size: contain;
   color: black;
   height: 250px;
-  width: 800px;
-margin-left: 25%;
-  margin-bottom: 5%;
+  width: 320px;
+  animation: denno 8s infinite;
+  border-radius: 3cm;
+}
+.akhans:hover, .studio:hover, .seenoi:hover{
+  border-radius: 0cm;
 }
 .studio{
   background-image: url(../images/studioback.jpeg);
   background-repeat: no-repeat;
   background-size: contain;
-  height: 270px;
-  width: 800px;
-  margin-left: 25%;
-  margin-bottom: 5%;
+  height: 250px;
+  width: 305px;
+  animation: denno 5s infinite;
+  border-radius: 3cm;
+
 }
 .seenoi{
   background-image: url(../images/pizza.jpeg);
   background-repeat: no-repeat;
   background-size: contain;
-  height: 310px;
-  width: 800px;
-  margin-left: 25%;
-  margin-bottom: 5%;
+  width: 270px;
+  height: 250px;
+  animation: denno 5s infinite;
+  border-radius: 3cm;
 
+
+
+}
+.story1, .story2, .story3{
+  display: none;
+}
+#akhans, #seenoi, #studio{
+text-align: center;
+font-size: 30px;
+font-weight: bolder;
+padding-top: 70px;
+animation: denno 8s infinite;
+}
+@keyframes denno {
+  0%{
+    color: maroon;
+    letter-spacing: 5px;
+    margin-left: -20px;
+    margin-right: -20px;
+  }
 }
 .fill{
   text-align: center;
@@ -166,12 +260,14 @@ margin-left: 25%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
-  height: 400px;
+  height: 350px;
   color: white;
+  padding-top: 20px;
 }
 #request{
   font-size: 16px;
   font-weight: bold;
+  text-align: center;
 }
 #name, #message, #email{
   background: transparent;
@@ -184,7 +280,6 @@ margin-left: 25%;
   padding-bottom: 12px;
 }
 .cards{
-  width: 300px;
   text-align: left;
   margin-left: 35%;
   margin-right: 30%;
@@ -193,19 +288,29 @@ margin-left: 25%;
   text-align: center;
   font-size: 17px;
   font-weight: bold;
-  color: maroon;
+  color: white;
+  padding-top: 10px;
+  background-color: maroon;
+  margin-top: 10px;
+  position: relative;
 }
 .social_img{
   height: 30px;
 }
-.socials{
-  text-align: left;
-  text-decoration: overline;
-  text-decoration: underline;
-  display: block;
-  color: black;
+#socials{
+font-weight: bold;
+font-size: 15px;
   margin-left: 32%;
   margin-right: 30%;
+color: #fff;
+}
+.my{
+  font-weight: bold;
+  font-size: 16px;
+color: white;
+}
+.fa fa-instagram{
+  background-color: #3f729b;
 }
 .header, #header{
 color: white;
@@ -214,11 +319,19 @@ color: white;
 }
 @media all and (max-width: 1268px){
   body{
-columns: 1;
-column-gap: 0;
+position: relative;
+  }
+  .content{
+    position: relative;
   }
 }
 .output{
 display: none;
   background-color: white;
+}
+.master{
+  text-align: center;
+  font-size: 30px;
+  font-weight: bolder;
+
 }

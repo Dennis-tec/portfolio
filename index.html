@@ -2,6 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>my-portfolio</title>
     <link rel="stylesheet" href="css/styles.css" type="text/css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -11,49 +12,98 @@
   </head>
   <body>
 <div class="contain" >
+  <div class="combine">
   <div class="navbar">
 
 
 
-    <div id="top"> <i class="fa fa-bars" id="bar" style="color: white; font-size: 25px;"></i>
-<h5 id="main">KAMAKEI <br>PORFOLIO</h5></div>
-<div class="navs"> <ul>
-  <li class="left" id="h" class="active"<a href="#details">Home</a></li>
+    <div id="top"> <a href="#sidebar"><i class="fa fa-bars" id="bar" style="color: white; font-size: 25px;"></i> <span id="side">MENU</span></a>
+<h5 id="main">KAMAKEI <br>PORFOLIO</h5><form class="search" action="branches.html" method="post">
+<label for="search"><input type="" id="search" placeholder="search..." class="form-control"></label><button type="submit" id="btn" class="btn btn-primary"><i class="fa fa-search" style=""></i>  </button>
+</form></div>
 
-        <li class="left" id="s"><a href="#skills">Skills</a></li>
-          <li class="left" id="e"><a href="#experience">Experiences</a></li>
-          <li class="left" id="ed"><a href="#education">Education</a></li>
-          <li class="left" id="p"><a href="#projects">Projects</a></li>
-      </div></ul>
+<div id="sidebar">
+  <p class="nav-link" id="h" class="active"<a href="#details"> <i class="fa fa-home" style="font-size: 20px;"></i> Home</a></p>
+
+         <p class="nav-link" id="a"><a href="#details"><i class="fa fa-user"></i> About</a></p>
+         <p class="nav-link" id="c"><a href="#socials"><i class="fa fa-graduation-cap"></i> Contact</a> </p>
+         <p class="nav-link"id="ed"><a href="#education"><i class="fa fa-book"></i> Education</a></p>
+          <p class="nav-link" id="e"><a href="#experience"><i class="fa fa-globe"></i> Experience</a></p>
+          <p class="nav-link" id="p"><a href="#projects"><i class="fa fa-object-group"></i> Projects</a></p>
+          <p class="nav-link" id="s"><a href="#skills"><i class="fa fa-wrench"></i> Skills</a></p>
+
+     </div>
     </div>
-    <marquee behavior="slide" direction="down" scrollamount="500"
-    <div id="content">
-    <div class="intro">
-<marquee behavior="alternate" width="600px" scrollamount="5">
+  </div>
+
+    <div id="intro">
+<marquee behavior="alternate" width="600px" scrollamount="4">
       <div class="lists">
 
-          <span id="details"><p>Hi, <br> I'm Dennis Kamakei, <br> android developer!</p>
+          <span id="details"><p>Hello, <br> I'm Dennis Kamakei, <br> android developer!</p>
           </span>
 
         </div>
       </marquee>
 
         <div class="image">
-          <h2><strong>About</strong></h2>
+<div class="about">
+  <h2><strong>About</strong></h2>
+
+</div>
 <img src="./images/1585751120958.jpg" alt="my photo" >
   <div class="cards">
     <p>I'm a professional, self train, web developer equiped with skills to design and layout professional websites for marketing, research, and other fields within business and education. I develop appealing websites using HTML5, CSS, Javascript, and Android. </p>
     </div>
-    <div class="socials">
-      <i class="fa fa-twitter"></i>
-<ul>
-  <li>Email:ykamakei6345@gmail.com</li>
-  <li>Phone.No:+254741847436</li>
-</ul>
-    </div>
+  </div>
+  <section class="languages">
+<div class="language">
+  <h3> <u>Programming languages skills</u> </h3>
+</div>
+<div class="HTML5">
+  <h5>HTML5</h5>
+<label for="html">
+  <progress value="100"id="html"max="100">0%</progress> 100%
+ </label>
+</div>
+<div class="CSS">
+  <h5>CSS3</h5>
+  <label for="css">
+<progress value="96"id="css"max="100">0%</progress> 96%
+  </label>
+</div>
+<div class="js">
+  <h5>Javascript</h5>
+  <label for="js">
+<progress value="90" id="js" max="100">0%</progress>90%
+  </label>
+</div>
+<div class="javas">
+  <h5>Java Spark</h5>
+  <label for="jas">
+<progress value="95" id="jas" max="100">0%</progress>95%
+  </label>
+</div>
+<div class="jaa">
+  <h5>Java Angular</h5>
+<label for="jaa">
+  <progress value="92" id="jaa" max="100">0%</progress> 92%
+</label>
+</div>
+<div class="android">
+  <h5>Android</h5>
+  <label for="android">
+    <progress value="90"id="android"max="100">0%</progress> 90%
+  </label>
+</div>
+  </section>
+
   </div>
 <div id="skills">
-<h4><strong><u>Skills</u></strong></h4>
+<div class="skills">
+  <h4><strong>Skills</strong></h4>
+
+</div>
     <ul>
       <li>Front-end and back-end Web development.</li>
       <li>Programming.</li>
@@ -63,7 +113,10 @@
     </ul>
     </div>
     <div id="experience">
-    <h4><strong><u>Experiences</u></strong></h4>
+<div class="experience">
+  <h4><strong>Experiences</strong></h4>
+
+</div>
     <ul>
       <li>Worked at Equity bank, Kenya, as an accountant, cash officer and relationship officer.</li>
       <li>Tutored KenSAP college students at M-PESA Foundaton Academy, Kenya.</li>
@@ -72,7 +125,10 @@
 
   </div>
   <div id="education">
-  <h4><strong><u>Education</u></strong></h4>
+<div class="education">
+  <h4><strong>Education</strong></h4>
+
+</div>
   <ul>
   <li>Computer science and software engineering undergraduate student at Haverford, USA.</li>
   <li>KenSAP college graduate.</li>
@@ -82,61 +138,88 @@
 
 </div>
 
-</div>
 <div id="projects">
 <div class="header">
-  <h3><strong><em><u>PROJECTS</u></em></strong></h3>
+  <h3><strong><em>PROJECTS</em></strong></h3>
 </div>
 <span id="header">
   <p>Below is a list of projects I have developed in my programming carrier</p>
 </span>
+<div class="container">
+
   <div class="projects">
+
 <div class="akhans">
-  <ul>
-    <li><a href="https://dennis-tec.github.io/akhan-names/">Akhan Names Website:</a>This webpage contain details <br> of Ghanian childrens names. Children in Ghana are <br> names in accordance to the day of the week they <br>were born. If a children do no recall their names as <br>well as the day of the week they were born, they can <br> simply enter their birthdate to get information relating <br>to them. </li>
-  </ul>
-</div>
+  <div id="akhans">
+    <p>Akhan Names</p>
+  </div>
+  <div class="story1">
+    <ul>
+      <li><a href="https://dennis-tec.github.io/akhan-names/">Akhan Names Website:</a>This webpage contain details of Ghanian childrens names. Children in Ghana are names in accordance to the day of the week they were born. If a children do no recall their names as well as the day of the week they were born, they can simply enter their birthdate to get information relatin to them. </li>
+    </ul>
+  </div>
+  </div>
 <div class="studio">
-  <ul>
-    <li><a href="https://dennis-tec.github.io/dennis-shop/">Dennis-Studio Website:</a>This project is a landing <br> page to Dennis-Studio webpage. Adverse <br>information relating to Dennis Studio location, <br>what they do, portfolio, and contact details are <br>found in vividly describe in this webpage. This <br>project help clients who want to advance their <br> knowledge in programming identify the appriariate <br>place to it and that,s Dennis Studio</li>
-  </ul>
+  <div id="studio">
+    <p>Dennis Web Studio</p>
+  </div>
+  <div class="story2">
+    <ul>
+      <li><a href="https://dennis-tec.github.io/dennis-shop/">Dennis-Studio Website:</a>This project is a landing page to Dennis-Studio webpage. Adverse information relating to Dennis Studio location, what they do, portfolio, and contact details are found in vividly describe in this webpage. This project help clients who want to advance their knowledge in programming identify the appriariate place to it and that,s Dennis Studio</li>
+    </ul>
+  </div>
 </div>
 <div class="seenoi">
-  <ul>
-    <li><a href="https://dennis-tec.github.io/seenoi-shop/">Seenoi Pizza Restaurant Website:</a>The <br>webpage contain details of Seenoi Pizza <br>shop. Customer who like to order their <br>favourite pizza variety can do it without <br>visiting the restaurant at an affordable price. <br>Clients can also choose whether they like <br>to receive their order through mail.</li>
-  </ul>
-</div>
+  <div id="seenoi">
+    <p>Pizza Shop</p>
   </div>
+  <div class="story3">
+    <ul>
+      <li><a href="https://dennis-tec.github.io/seenoi-shop/">Seenoi Pizza Restaurant Website:</a>The webpage contain details of Seenoi Pizza shop. Customer who like to order their favourite pizza variety can do it without visiting the restaurant at an affordable price. Clients can also choose whether they like to receive their order through mail.</li>
+    </ul>
+  </div>
+</div>
+</div>
+</div>
+<div class="master">
+<p>Contact</p>
+</div>
+<span id="request"><p>Fill in your personal details you want to get in touch with me.</p></span>
 
-</div>
-<div class="contact">
-<input type="button" class="btn btn-primary" style="font-weight: bolder" style="font-size: 16px" value="Contact">
-</div>
 <div class="fill">
-  <span id="request"><p>Fill in your personal details if you want to get in touch with me.</p></span>
   <form id="form" action="file:///home/dennis/Desktop/Dennis-Studio/index.html" target="_blank" method="post" >
     <div class="form-group">
-      <label for="name">Name:
-      <input type="text" class="form-control" id="name" ></label>
+      <label for="name">
+      <input type="text" class="form-control" placeholder="Name"id="name" ></label>
     </div>
     <div class="form-group">
-      <label for="email">Email:
-      <input type="email" class="form-control" id="email"></label>
+      <label for="email">
+      <input  type="email"  class="form-control"  placeholder="Email" id="email"></label>
     </div>
     <div class="form-group">
-    <label for="message">Message:<textarea name="text" id="message" class="form-control" rows="5" cols=""></textarea></label>
+    <label for="message"><textarea name="text" id="message" placeholder="Message" class="form-control" rows="5" cols=""></textarea></label>
     </div>
     <input type="button" id="button" class="btn btn-info" style="font-weight: bold" value="Submit" >
   </form>
 </div>
-</div>
 <div class="copy">
-  &copy 2020 All rights reserved.
+
+<div id="socials">
+<h5><span class="my"><button type="button" class="btn btn-success"name="button">Contact Me Through</button>
+</span></h5>
+<i class="fa fa-envelope" style="font-size: 20px"></i>
+<a href="#" style="color: white;"> ykamakei6345@gmail.com</a>
+<i class="fa fa-whatsapp" style="font-size: 20px"></i> <a href="#" style="color: white;"> +254741847436</a>
+<i class="fa fa-twitter"style="font-size: 20px;"></i> <a href="#" style="color: white;"> Yiaile Kamakei</a> <br>
+<i class="fa fa-facebook"style= "font-size: 20px"> </i><a href="#" style="color: white;"> Kamakei Yiaile Dennies</a>
+<i class="fa fa-instagram"style= "font-size: 20px "></i> <a href="#" style="color: white;"> kamakeiyiaile</a>
+<i class="fa fa-linkedin" style="font-size: 20px"></i> <a href="#" style="color: white;"> Dennis K Yiaile</a>
+
+</div> <br>
+
+<p>  &copy 2020 copyright Yiaile Kamakei.
+</p>
 </div>
-</div>
-</marquee>
-<div class="output">
-<p><span id="maks"></span> Thank you for contacting Dennis company</p>
 </div>
   </body>
 </html>
