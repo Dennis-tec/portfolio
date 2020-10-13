@@ -169,7 +169,7 @@ margin-top: -100%;
   font-weight: bold;
   margin-top: 5%;
   color: white;
-  padding-left: 50px;
+  padding-left: 40px;
 
 }
 #skills{
@@ -177,7 +177,7 @@ font-size: 15px;
 font-weight: bold;
 margin-top: 5%;
 color: white;
-padding-left: 50px;
+padding-left: 40px;
 
 
 }
@@ -187,7 +187,7 @@ padding-left: 50px;
   font-weight: bold;
   margin-top: 5%;
   color: white;
-  padding-left: 50px;
+  padding-left: 40px;
 
 }
 #h1{
@@ -218,7 +218,7 @@ img{
 }
 .languages{
   color: white;
-padding-left: 50px;
+padding-left: 40px;
 font-size: 20px;
 font-weight: bold;
 
@@ -247,14 +247,13 @@ font-weight: bold;
   text-align: center;
   color: blue;
   font-size: 16px;
+  padding-left: 40px;
 }
 .header{
-  margin-left: 35%;
-  color: blue;
-  margin-right: 35%;
+  padding-left: 30px;
 }
 .projects{
-padding-left: 100px;
+padding-left: 10px;
 }
 .akhans{
   background-image: url(../images/akhan-back.jpeg);
@@ -263,11 +262,7 @@ padding-left: 100px;
   color: black;
   height: 250px;
   width: 320px;
-  animation: denno 8s infinite;
-  border-radius: 3cm;
-}
-.akhans:hover, .studio:hover, .seenoi:hover{
-  border-radius: 0cm;
+  animation: maks 9s infinite;
 }
 .studio{
   background-image: url(../images/studioback.jpeg);
@@ -275,8 +270,7 @@ padding-left: 100px;
   background-size: contain;
   height: 250px;
   width: 305px;
-  animation: denno 5s infinite;
-  border-radius: 3cm;
+  animation: maks 9s infinite;
 
 }
 .seenoi{
@@ -285,11 +279,13 @@ padding-left: 100px;
   background-size: contain;
   width: 270px;
   height: 250px;
-  animation: denno 5s infinite;
-  border-radius: 3cm;
+  animation: maks 9s infinite;
 
-
-
+}
+@keyframes maks {
+  0%{
+    border-radius: 2cm;
+  }
 }
 .story1, .story2, .story3{
   display: none;
@@ -305,7 +301,6 @@ animation: denno 8s infinite;
   0%{
     color: maroon;
     letter-spacing: 5px;
-margin: -1%;
   }
 }
 .fill{
@@ -313,12 +308,12 @@ margin: -1%;
   color: white;
   padding-top: 20px;
 text-align: center;
-
 }
 #request{
   font-size: 16px;
   font-weight: bold;
   text-align: center;
+  color: white;
 }
 #name, #message, #email{
   background: transparent;
@@ -351,12 +346,14 @@ text-align: center;
   font-weight: bold;
   font-size: 16px;
 color: white;
+text-align: center;
 }
 .fa fa-instagram{
   background-color: #3f729b;
 }
 .header, #header{
 color: white;
+text-align: left;
 }
 .header{
 }
@@ -373,7 +370,8 @@ display: none;
   background-color: white;
 }
 .master{
-  text-align: center;
   font-size: 30px;
   font-weight: bolder;
+text-align: center;
+color: white;
 }
