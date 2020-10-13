@@ -1,7 +1,11 @@
+
 var message=function(email, name){
 
 }
 $("document").ready(function(){
+  $("#s").click(function(){
+    $("#search").toggle();
+  })
   $("#button").click(function(){
   var name=$("#name").val();
   var email=$("#email").val();
@@ -16,5 +20,11 @@ $("document").ready(function(){
     alert(name+ ", I have receive your information. I will get back to you in a few!");
 }
 })
+
 })
-})
+function showSideBar() {
+  document.getElementById('sidebar').style.width='250px';
+}
+function hideSideBar() {
+  document.getElementById('sidebar').style.width="-10px";
+}

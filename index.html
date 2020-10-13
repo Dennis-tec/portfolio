@@ -11,29 +11,26 @@
 <script src="js/scripts.js"></script>
   </head>
   <body>
-<div class="contain" >
-  <div class="combine">
+<div class="contain">
+  <div id="sidebar">
+    <h5>Dennis  <i class="fa fa-times" style="font-size: 20px" onclick="hideSideBar()"></i></h5>
+      <p class="nav-link" id="h" class="active"<a href="#details" style="color: white"> <i class="fa fa-home" style="font-size: 20px;"></i> Home</a></p>
+             <p class="nav-link" id="a"><a href="#details" style="color: white"><i class="fa fa-user"></i> About</a></p>
+             <p class="nav-link" id="c"><a href="#socials" style="color: white"><i class="fa fa-graduation-cap"></i> Contact</a> </p>
+             <p class="nav-link"id="ed"><a href="#education" style="color: white"><i class="fa fa-book"></i> Education</a></p>
+              <p class="nav-link" id="e"><a href="#experience" style="color: white"><i class="fa fa-globe"></i> Experience</a></p>
+              <p class="nav-link" id="p"><a href="#projects" style="color: white"><i class="fa fa-object-group"></i> Projects</a></p>
+              <p class="nav-link" id="s"><a href="#skills" style="color: white"><i class="fa fa-wrench"></i> Skills</a></p>
+         </div>
+
+         <div class="combine">
   <div class="navbar">
-
-
-
-    <div id="top"> <a href="#sidebar"><i class="fa fa-bars" id="bar" style="color: white; font-size: 25px;"></i> <span id="side">MENU</span></a>
+    <i class="fa fa-bars" id="bar" style="color: white; font-size: 25px;"onclick="showSideBar()"></i> <span id="side">MENU</span>
 <h5 id="main">DENNIS<br>KAMAKEI</h5><form class="search" action="branches.html" method="post">
-<label for="search"><input type="texts" id="search" placeholder="search..." class="form-control"></label><i class="fa fa-search" style=""></i>
-</form></div>
+<label for="search"><input type="texts" id="search" placeholder="search..." class="form-control"></label><i class="fa fa-search" id="s"style=""></i>
+</form>
 
-<div id="sidebar"> <ul>
-  <li class="nav-link" id="h" class="active"<a href="#details"> <i class="fa fa-home" style="font-size: 20px;"></i> Home</a></li>
-         <li class="nav-link" id="a"><a href="#details"><i class="fa fa-user"></i> About</a></li>
-         <li class="nav-link" id="c"><a href="#socials"><i class="fa fa-graduation-cap"></i> Contact</a> </li>
-         <li class="nav-link"id="ed"><a href="#education"><i class="fa fa-book"></i> Education</a></li>
-          <li class="nav-link" id="e"><a href="#experience"><i class="fa fa-globe"></i> Experience</a></li>
-          <li class="nav-link" id="p"><a href="#projects"><i class="fa fa-object-group"></i> Projects</a></li>
-          <li class="nav-link" id="s"><a href="#skills"><i class="fa fa-wrench"></i> Skills</a></li>
-</ul>
-     </div>
     </div>
-  </div>
   <section class="container">
     <div id="intro">
       <div class="lists">
@@ -144,7 +141,6 @@
   </ul>
 
 </div>
-</section>
 
 <div id="projects">
 <div class="header">
@@ -189,6 +185,8 @@
 </div>
 </div>
 </div>
+</section>
+
 <div class="master">
 <p>Contact</p>
 </div>
@@ -202,10 +200,10 @@
     </div>
     <div class="form-group">
       <label for="email">
-      <input  type="email"  class="form-control"  placeholder="Email" id="email"></label>
+      <input  type="email"  class="form-control"  placeholder="Email" id="email" style="width: 225px"></label>
     </div>
     <div class="form-group">
-    <label for="message"><textarea name="text" id="message" placeholder="Message" class="form-control" rows="5" cols=""></textarea></label>
+    <label for="message"><textarea name="text" id="message" placeholder="Message" class="form-control" rows="5" style="width: 225px"></textarea></label>
     </div>
     <input type="button" id="button" class="btn btn-info" style="font-weight: bold" value="Submit" >
   </form>
@@ -224,14 +222,12 @@
 <a href="#" style="color: white;"><i class="fa fa-linkedin" style="font-size: 20px"></i> </a>
 
 </div> <br>
+<p>  &copy copyright 2020 <br>all rights reserved.</p>
+</div>
+</div>
+</div>
+</div>
 
-<<<<<<< HEAD
-<p>  &copy copyright 2020 <br>all rights reserved.
-=======
-<p>  &copy copyright 2020  Yiaile Kamakei.
->>>>>>> a54d595249e4ca820aace5facb95b7900c39615e
-</p>
-</div>
-</div>
+
   </body>
 </html>
