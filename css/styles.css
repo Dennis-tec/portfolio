@@ -376,10 +376,4 @@ display: none;
   text-align: center;
   font-size: 30px;
   font-weight: bolder;
-
-}
-@@media all and (max-width: 1268px) {
-  .content{
-    background-color: yellow;
-  }
 }
