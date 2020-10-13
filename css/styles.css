@@ -376,7 +376,15 @@ display: none;
   text-align: center;
   font-size: 30px;
   font-weight: bolder;
+}
 
+media all and (max-width: 480px){
+  body{
+position: relative;
+  }
+  .projects{
+    columns: 0;
+  }
 }
 @@media all and (max-width: 1268px) {
   .content{
