@@ -33,6 +33,12 @@ columns: 6;
   padding-top: 20px;
   padding-bottom: 10px;
   margin-bottom: 0px;
+  animation: kamakei 4s 1;
+}
+@keyframes kamakei {
+  0%{
+    margin: -10%;
+  }
 }
 .combine{
 
@@ -46,6 +52,13 @@ columns: 6;
 animation: bounce 3s infinite;
   display: block;
 }
+#bar{
+  transition: 3s ease;
+}
+#bar:hover{
+background-color: purple;
+padding: 1px;
+}
 @keyframes bounce{
 0%{
   color: #6ab04c;
@@ -57,7 +70,11 @@ animation: bounce 3s infinite;
   background-color: transparent;
   color: white;
   border-radius: 30cm;
+  outline-style: none;
+  height: 25px;
+  width: 150px;
 }
+
 #btn{
   border-radius: 41cm;
 }
@@ -92,18 +109,48 @@ cursor: context-menu;
   text-transform: full-width;
 }
 #details{
-  font-size: 35px;
+  font-size: 30px;
+  letter-spacing: 3px;
   font-weight: bolder;
-  margin-left: 2%;
   background-image: url(../images/portfolio-home.jpg);
  background-size: contain;
  background-repeat: no-repeat;
- color: black;
+ color: blue;
+animation: denno 2s 5;
+animation: color 5s infinite linear;
+}
+keyframes denno {
+  0%{
+margin-top: -100%;
+ }
 
 }
-.skills h4, .experience h4, .education h4, .about, .header{
+@keyframes color {
+  0%{
+    color: darkblue;
+    color: green;
+    padding left: 10px;
+  }20%{
+    color: purple;
+    padding left: 10px;
+
+  }50%{
+    color: maroon;
+    padding left: 10px;
+  }70%{
+    color: black;
+    padding left: : 10px;
+  }90%{
+    color: violet;
+    padding left: 10px;
+  }
+  100%{
+    color: dimgrey;
+  }
+}
+
+.skills h4, .experience h4, .education h4, .about, .header, .master{
   animation: text 4s infinite;
-  text-align: center;
 
 }
 .skills h4, .experience h4, .education h4{
@@ -118,30 +165,29 @@ cursor: context-menu;
   }
 }
 #experience{
-  font-size: 18px;
+  font-size: 15px;
   font-weight: bold;
-  margin-left: 25%;
   margin-top: 5%;
-  margin-right: 25%;
   color: white;
+  padding-left: 50px;
+
 }
 #skills{
-font-size: 18px;
+font-size: 15px;
 font-weight: bold;
-margin-left: 25%;
 margin-top: 5%;
-margin-right: 25%;
 color: white;
+padding-left: 50px;
+
 
 }
 
 #education{
-  font-size: 18px;
+  font-size: 15px;
   font-weight: bold;
-  margin-left: 25%;
   margin-top: 5%;
-  margin-right: 25%;
   color: white;
+  padding-left: 50px;
 
 }
 #h1{
@@ -149,21 +195,30 @@ color: white;
   font-weight: bold;
 }
 img{
-  border-radius: 3cm;
-  height: 260px;
-  width: 300px;
+  border-radius: 31cm;
+  height: 200px;
+  width: 200px;
 }
-.image{
-  font-size: 16px;
-  font-weight: bolder;
-  text-decoration: inherit;
-  padding-top: 0px;
+.about{
   text-align: center;
   color: white;
 }
+.image{
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: inherit;
+  text-align: center;
+  color: white;
+
+}
+.cards{
+  font-size: 15px;
+  text-align: center;
+
+}
 .languages{
   color: white;
-padding-left: 60px;
+padding-left: 50px;
 font-size: 20px;
 font-weight: bold;
 
@@ -199,7 +254,7 @@ font-weight: bold;
   margin-right: 35%;
 }
 .projects{
-  columns: 3;
+padding-left: 100px;
 }
 .akhans{
   background-image: url(../images/akhan-back.jpeg);
@@ -250,19 +305,15 @@ animation: denno 8s infinite;
   0%{
     color: maroon;
     letter-spacing: 5px;
-    margin-left: -20px;
-    margin-right: -20px;
+margin: -1%;
   }
 }
 .fill{
-  text-align: center;
-  background-image: url(../images/seenoi.jpeg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
   height: 350px;
   color: white;
   padding-top: 20px;
+text-align: center;
+
 }
 #request{
   font-size: 16px;
@@ -279,30 +330,22 @@ animation: denno 8s infinite;
   font-weight: bold;
   padding-bottom: 12px;
 }
-.cards{
-  text-align: left;
-  margin-left: 35%;
-  margin-right: 30%;
+
 }
-.copy{
-  text-align: center;
-  font-size: 17px;
-  font-weight: bold;
-  color: white;
-  padding-top: 10px;
-  background-color: maroon;
-  margin-top: 10px;
-  position: relative;
+
 }
 .social_img{
   height: 30px;
 }
-#socials{
-font-weight: bold;
-font-size: 15px;
-  margin-left: 32%;
-  margin-right: 30%;
-color: #fff;
+.copy{
+  text-align: center;
+  font-weight: bold;
+  font-size: 15px;
+  text-align: center;
+  color: #fff;
+  background-color: maroon;
+  padding-top: 10px;
+}
 }
 .my{
   font-weight: bold;
@@ -334,4 +377,9 @@ display: none;
   font-size: 30px;
   font-weight: bolder;
 
+}
+@@media all and (max-width: 1268px) {
+  .content{
+    background-color: yellow;
+  }
 }
