@@ -102,7 +102,8 @@ padding: 1px;
   color: white;
   border-radius: 30cm;
   outline-style: none;
-  width: 150px;
+  width: 100px;
+  height: 25px;
 }
 
 #btn{
@@ -297,7 +298,6 @@ padding-left: 5px;
   height: 250px;
   width: 304px;
   animation: maks 9s infinite;
-  background-blend-mode: darken;
 
 }
 .studio{
@@ -316,7 +316,6 @@ padding-left: 5px;
   width: 306px;
   height: 315px;
   animation: maks 9s infinite;
-  background-blend-mode: darken;
 
 }
 @keyframes maks {
