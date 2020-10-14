@@ -136,12 +136,10 @@ cursor: context-menu;
  background-size: contain;
  background-repeat: no-repeat;
  color: blue;
-animation: denno 2s 5;
-animation: color 5s infinite linear;
+animation: color 10s infinite linear;
 }
-keyframes denno {
+@keyframes ease {
   0%{
-margin-top: -100%;
  }
 
 }
@@ -149,7 +147,8 @@ margin-top: -100%;
   0%{
     color: darkblue;
     color: green;
-    padding left: 10px;
+    background-image: url(../images/seenoi.jpeg);
+
   }20%{
     color: purple;
     padding left: 10px;
@@ -262,7 +261,7 @@ background-color: #4B382A;
   font-size: 15px;
   animation: denno 4s infinite;
 }
-#html, #jas, #js, #jaa, #android, #css{
+#html, #jas, #ja,  #jaa, #android, #css{
   height: 22px;
   border-radius: rgba(255, 0, 0, 0.5);
 }
