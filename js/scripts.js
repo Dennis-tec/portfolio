@@ -21,6 +21,27 @@ $("document").ready(function(){
     $(".story3").slideToggle();
     $(".seenoi").toggle();
   })
+  $("#a").click(function(){
+    $("#sidebar").toggle()
+  })
+  $("#b").click(function(){
+    $("#sidebar").toggle()
+  })
+  $("#c").click(function(){
+    $("#sidebar").toggle()
+  })
+  $("#d").click(function(){
+    $("#sidebar").toggle()
+  })
+  $("#e").click(function(){
+    $("#sidebar").toggle()
+  })
+  $("#f").click(function(){
+    $("#sidebar").toggle()
+  })
+  $("#g").click(function(){
+    $("#sidebar").toggle()
+  })
   $("#button").click(function(){
   var name=$("#name").val();
   var email=$("#email").val();
