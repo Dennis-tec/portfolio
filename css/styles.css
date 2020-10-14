@@ -27,20 +27,24 @@ background-color: #22242A;
 color: white;
 position: fixed;
 transition: all ease 2s;
+width: 200px;
 left: -250px;
+}
+#times{
+  padding-left: 85px;
 }
 #sidebar h5{
 padding-bottom: 10px;
 font-size: 20px;
 font-weight: bold;
 padding-top: 60px;
-padding-left: 2px;
+padding-left: 10px;
 background: #2F323A;
 
 }
 #sidebar p{
-  height: 50px;
-  left: 4px;
+  height: 40px;
+padding-left: 10%;
 }
 #sidebar p:hover{
   background-color: #1dc4e7;
@@ -82,9 +86,11 @@ padding-left: 10px;
   font-weight: bold;
   letter-spacing: 3px;
   display: block;
+  font-family: Times;
 }
 #bar{
   transition: 3s ease;
+  left: 5px;
 }
 #bar:hover{
 background-color: purple;
@@ -96,9 +102,7 @@ padding: 1px;
   color: white;
   border-radius: 30cm;
   outline-style: none;
-  height: 25px;
   width: 150px;
-  display: none;
 }
 
 #btn{
@@ -180,20 +184,26 @@ margin-top: -100%;
     color: green;
   }
 }
+.all{
+  color: dimgrey;
+  background-color: white;
+}
 #experience{
   font-size: 15px;
   font-weight: bold;
   margin-top: 5%;
-  color: white;
   padding-left: 30px;
+
+
+
 
 }
 #skills{
 font-size: 15px;
 font-weight: bold;
 margin-top: 5%;
-color: white;
 padding-left: 30px;
+
 
 
 }
@@ -202,8 +212,10 @@ padding-left: 30px;
   font-size: 15px;
   font-weight: bold;
   margin-top: 5%;
-  color: white;
   padding-left: 30px;
+  padding-bottom: 20px;
+
+
 
 }
 #h1{
@@ -237,6 +249,7 @@ img{
 padding-left: 30px;
 font-size: 20px;
 font-weight: bold;
+background-color: #4B382A;
 
 
 }
@@ -249,11 +262,17 @@ font-weight: bold;
   font-size: 15px;
   animation: denno 4s infinite;
 }
+#html, #jas, #js, #jaa, #android, #css{
+  height: 22px;
+  border-radius: rgba(255, 0, 0, 0.5);
+}
 @keyframes denno {
   0%{
-    color: darkblue;
     letter-spacing: 40px;
+    display: inline;
   }
+}
+#js{
 }
 #projects{
   color: white;
@@ -261,7 +280,7 @@ font-weight: bold;
 }
 #header{
   text-align: center;
-  color: blue;
+  color: white;
   font-size: 16px;
   padding-left: 40px;
 }
@@ -279,6 +298,8 @@ padding-left: 5px;
   height: 250px;
   width: 304px;
   animation: maks 9s infinite;
+  background-blend-mode: darken;
+
 }
 .studio{
   background-image: url(../images/studioback.jpeg);
@@ -296,12 +317,19 @@ padding-left: 5px;
   width: 306px;
   height: 315px;
   animation: maks 9s infinite;
+  background-blend-mode: darken;
 
 }
 @keyframes maks {
   0%{
     border-radius: 2cm;
   }
+}
+#clicka, #clickb, #clickc{
+  border-radius: 41cm;
+  background-color: transparent;
+height: 30px;
+font-size: 20px;
 }
 .story1, .story2, .story3{
   display: none;
@@ -316,7 +344,7 @@ animation: denno 8s infinite;
 @keyframes denno {
   0%{
     color: maroon;
-    letter-spacing: 5px;
+    letter-spacing: 1px;
   }
 }
 .fill{
@@ -364,8 +392,14 @@ text-align: center;
 color: white;
 text-align: center;
 }
-.fa fa-instagram{
-  background-color: #3f729b;
+#fb, #ig, #ld, #wp, #tw{
+border-radius: 3cm;
+ width: 25px;
+ background-color: white;
+ border-color: black;
+ color: blue;
+ font-size: 20px
+}
 }
 .header, #header{
 color: white;
@@ -390,4 +424,17 @@ display: none;
   font-weight: bolder;
 text-align: center;
 color: white;
+}
+#my{
+  background-color: green;
+  width: 120px;
+  border-radius: 41cm;
+  height: 25px;
+font-size: 15px;
+font-weight: bold;
+}
+.number h5{
+  font-weight: bold;
+  text-decoration: underline;
+  font-size: 17px;
 }

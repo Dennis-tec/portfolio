@@ -3,8 +3,23 @@ var message=function(email, name){
 
 }
 $("document").ready(function(){
-  $("#s").click(function(){
-    $("#search").toggle();
+  $("#bar").click(function(){
+   $("#sidebar").animate({left: '0px'}, {speed: '0.05s'});
+  })
+  $("#times").click(function(){
+    $("#sidebar").animate({left: '-250px'});
+  })
+  $("#clicka").click(function(){
+    $(".story1").slideToggle();
+    $(".akhans").toggle();
+  })
+  $("#clickb").click(function(){
+    $(".story2").slideToggle();
+    $(".studio").toggle();
+  })
+  $("#clickc").click(function(){
+    $(".story3").slideToggle();
+    $(".seenoi").toggle();
   })
   $("#button").click(function(){
   var name=$("#name").val();
@@ -20,11 +35,4 @@ $("document").ready(function(){
     alert(name+ ", I have receive your information. I will get back to you in a few!");
 }
 })
-
 })
-function showSideBar() {
-  document.getElementById('sidebar').style.width='250px';
-}
-function hideSideBar() {
-  document.getElementById('sidebar').style.width="-10px";
-}

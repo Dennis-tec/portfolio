@@ -13,11 +13,11 @@
   <body>
 <div class="contain">
   <div id="sidebar">
-    <h5>Dennis  <i class="fa fa-times" style="font-size: 20px" onclick="hideSideBar()"></i></h5>
+    <h5>Dennis  <i class="fa fa-times" id="times" style="font-size: 20px"></i></h5>
       <p class="nav-link" id="h" class="active"<a href="#details" style="color: white"> <i class="fa fa-home" style="font-size: 20px;"></i> Home</a></p>
              <p class="nav-link" id="a"><a href="#details" style="color: white"><i class="fa fa-user"></i> About</a></p>
-             <p class="nav-link" id="c"><a href="#socials" style="color: white"><i class="fa fa-graduation-cap"></i> Contact</a> </p>
-             <p class="nav-link"id="ed"><a href="#education" style="color: white"><i class="fa fa-book"></i> Education</a></p>
+             <p class="nav-link" id="c"><a href="#socials" style="color: white"><i class="fa fa-envelope"></i> Contact</a> </p>
+             <p class="nav-link"id="ed"><a href="#education" style="color: white"><i class="fa fa-graduation-cap"></i> Education</a></p>
               <p class="nav-link" id="e"><a href="#experience" style="color: white"><i class="fa fa-globe"></i> Experience</a></p>
               <p class="nav-link" id="p"><a href="#projects" style="color: white"><i class="fa fa-object-group"></i> Projects</a></p>
               <p class="nav-link" id="s"><a href="#skills" style="color: white"><i class="fa fa-wrench"></i> Skills</a></p>
@@ -25,7 +25,7 @@
 
          <div class="combine">
   <div class="navbar">
-    <i class="fa fa-bars" id="bar" style="color: white; font-size: 25px;"onclick="showSideBar()"></i> <span id="side">MENU</span>
+    <i class="fa fa-bars" id="bar" style="color: white; font-size: 25px;"></i> <span id="side">MENU</span>
 <h5 id="main">DENNIS<br>KAMAKEI</h5><form class="search" action="branches.html" method="post">
 <label for="search"><input type="texts" id="search" placeholder="search..." class="form-control"></label><i class="fa fa-search" id="s"style=""></i>
 </form>
@@ -103,6 +103,8 @@
   </section>
 
   </div>
+  <section class="all">
+
 <div id="skills">
 <div class="skills">
   <h4><strong>Skills</strong></h4>
@@ -141,6 +143,8 @@
   </ul>
 
 </div>
+</section>
+
 
 <div id="projects">
 <div class="header">
@@ -156,32 +160,37 @@
 <div class="akhans">
   <div id="akhans">
     <p>Akhan Names</p>
+    <button type="submit" id="clicka" >Click here <i class="fa fa-arrow-right"></i> </button>
   </div>
+</div>
+
   <div class="story1">
     <ul>
-      <li><a href="https://dennis-tec.github.io/akhan-names/">Akhan Names Website:</a>This webpage contain details of Ghanian childrens names. Children in Ghana are names in accordance to the day of the week they were born. If a children do no recall their names as well as the day of the week they were born, they can simply enter their birthdate to get information relatin to them. </li>
+      <li><a href="https://dennis-tec.github.io/akhan-names/" style="color: red">Akhan Names Website:</a>This webpage contain details of Ghanian childrens names. Children in Ghana are names in accordance to the day of the week they were born. If a children do no recall their names as well as the day of the week they were born, they can simply enter their birthdate to get information relatin to them. </li>
     </ul>
-  </div>
   </div>
 <div class="studio">
   <div id="studio">
     <p>Dennis Web Studio</p>
-  </div>
-  <div class="story2">
-    <ul>
-      <li><a href="https://dennis-tec.github.io/dennis-shop/">Dennis-Studio Website:</a>This project is a landing page to Dennis-Studio webpage. Adverse information relating to Dennis Studio location, what they do, portfolio, and contact details are found in vividly describe in this webpage. This project help clients who want to advance their knowledge in programming identify the appriariate place to it and that,s Dennis Studio</li>
-    </ul>
+    <button type="submit" id="clickb" >Click here <i class="fa fa-arrow-right"></i> </button>
   </div>
 </div>
+
+  <div class="story2">
+    <ul>
+      <li><a href="https://dennis-tec.github.io/dennis-shop/"style="color: red">Dennis-Studio Website:</a>This project is a landing page to Dennis-Studio webpage. Adverse information relating to Dennis Studio location, what they do, portfolio, and contact details are found in vividly describe in this webpage. This project help clients who want to advance their knowledge in programming identify the appriariate place to it and that,s Dennis Studio</li>
+    </ul>
+  </div>
 <div class="seenoi">
   <div id="seenoi">
     <p>Pizza Shop</p>
+    <button type="submit" id="clickc" >Click here <i class="fa fa-arrow-right"></i> </button>
   </div>
+</div>
   <div class="story3">
     <ul>
-      <li><a href="https://dennis-tec.github.io/seenoi-shop/">Seenoi Pizza Restaurant Website:</a>The webpage contain details of Seenoi Pizza shop. Customer who like to order their favourite pizza variety can do it without visiting the restaurant at an affordable price. Clients can also choose whether they like to receive their order through mail.</li>
+      <li><a href="https://dennis-tec.github.io/seenoi-shop/"style="color: red">Seenoi Pizza Restaurant Website:</a>The webpage contain details of Seenoi Pizza shop. Customer who like to order their favourite pizza variety can do it without visiting the restaurant at an affordable price. Clients can also choose whether they like to receive their order through mail.</li>
     </ul>
-  </div>
 </div>
 </div>
 </div>
@@ -209,17 +218,18 @@
   </form>
 </div>
 <div class="copy">
-
+<div class="number">
+  <h5>Get In touch</h5>
+  <p>+254 741847436 <br>ykamkei6345@gmail.com <br>dyiaile@haverford.edu</p>
+</div>
 <div id="socials">
-<h5><span class="my"><button type="button" class="btn btn-success"name="button">Contact Me Through</button>
+<h5><span class="my"><button type="button" id="my" name="button">Social Media</button>
 </span></h5>
-<a href="#"style="color: white;"><i class="fa fa-envelope" style="font-size: 20px"></i>
-</a>
-<a href="#"style="color: white;"><i class="fa fa-whatsapp" style="font-size: 20px"></i></a>
-<a href="#"style="color: white;"><i class="fa fa-twitter"style="font-size: 20px;"></i></a>
-<a href="#"style="color: white;"><i class="fa fa-facebook"style= "font-size: 20px"> </i></a>
-<a href="#"style="color: white;"><i class="fa fa-instagram"style= "font-size: 20px "></i></a>
-<a href="#" style="color: white;"><i class="fa fa-linkedin" style="font-size: 20px"></i> </a>
+<a href="#"style="color: white;"><i class="fa fa-whatsapp" style="color: green"id="wp"></i></a>
+<a href="#"style="color: white;"><i class="fa fa-twitter"style="font-size: 20px;"id="tw"></i></a>
+<a href="#"style="color: white;"><i class="fa fa-facebook"style= "font-size: 20px"id="fb"> </i></a>
+<a href="#"style="color: white;"><i class="fa fa-instagram"style= "color: darkred;" id="ig"></i></a>
+<a href="#" style="color: white;"><i class="fa fa-linkedin" style="font-size: 20px" id="ld"></i> </a>
 
 </div> <br>
 <p>  &copy copyright 2020 <br>all rights reserved.</p>
