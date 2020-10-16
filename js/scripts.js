@@ -9,6 +9,8 @@ $("document").ready(function(){
   $("#times").click(function(){
     $("#sidebar").animate({left: '-250px'});
   })
+  $(".combine").click(function(){
+  })
   $("#clicka").click(function(){
     $(".story1").slideToggle();
     $(".akhans").toggle();
