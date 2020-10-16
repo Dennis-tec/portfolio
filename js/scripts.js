@@ -12,14 +12,26 @@ $("document").ready(function(){
   $("#clicka").click(function(){
     $(".story1").slideToggle();
     $(".akhans").toggle();
+    $(".story2").hide();
+    $(".story3").hide();
+    $(".studio").show();
+    $(".seenoi").show();
   })
   $("#clickb").click(function(){
     $(".story2").slideToggle();
     $(".studio").toggle();
+    $(".story1").hide();
+    $(".story3").hide();
+    $(".akhans").show();
+    $(".seenoi").show();
   })
   $("#clickc").click(function(){
     $(".story3").slideToggle();
     $(".seenoi").toggle();
+    $(".story1").hide();
+    $(".story2").hide();
+    $(".akhans").show();
+    $(".studio").show();
   })
   $("#a").click(function(){
     $("#sidebar").toggle()
