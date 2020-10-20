@@ -260,11 +260,11 @@ background-color: #4B382A;
   animation: denno 4s infinite;
 }
 .percentage{
-padding-left: 50%;
+padding-left: 80%;
 }
 .progressive{
   background-color: white;
-  width: 50%;
+  width: 80%;
   border-radius: 3cm;
   height: 12px;
 }
@@ -470,7 +470,6 @@ columns: 3;
 }
 .seenoi, .story3{
   height: 265px;
-}
 }
 #search{
   width: 200px;
