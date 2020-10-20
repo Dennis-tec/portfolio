@@ -259,9 +259,65 @@ background-color: #4B382A;
   font-size: 15px;
   animation: denno 4s infinite;
 }
-#html, #jas, #ja,  #jaa, #android, #css{
-  height: 22px;
-  border-radius: rgba(255, 0, 0, 0.5);
+.percentage{
+padding-left: 50%;
+}
+.progressive{
+  background-color: white;
+  width: 50%;
+  border-radius: 3cm;
+  height: 12px;
+}
+#android{
+  background-color: dimgrey;
+  color: dimgrey;
+  border-radius: 41cm;
+  height: 12px;
+width: 90%;
+
+}
+#html{
+  background-color: dimgrey;
+  border-radius: 41cm;
+  color: dimgrey;
+  height: 12px;
+  width: 100%;
+
+}
+#css{
+  background-color: dimgrey;
+  letter-spacing: 58px;
+  color: dimgrey;
+  border-radius: 41cm;
+width: 97%;
+height: 12px;
+
+
+}
+#ja{
+  background-color: dimgrey;
+  height: 12px;
+  color: dimgrey;
+  border-radius: 41cm;
+width: 94%;
+}
+#jaa{
+  background-color: dimgrey;
+  color: dimgrey;
+  border-radius: 41cm;
+width: 85%;
+height: 12px;
+
+
+
+}
+#jas{
+  background-color: dimgrey;
+  color: dimgrey;
+  border-radius: 41cm;
+  height: 12px;
+  width: 89%;
+
 }
 @keyframes denno {
   0%{
@@ -402,10 +458,24 @@ text-align: left;
 }
 .header{
 }
-@media all and (max-width: 1268px){
-  body{
-position: relative;
-  }
+@media all and (min-width: 1000px){
+.projects{
+columns: 3;
+}
+.akhans, .story1{
+  height: 285px;
+}
+.studio, .story2{
+  height: 260px;
+}
+.seenoi, .story3{
+  height: 265px;
+}
+}
+#search{
+  width: 200px;
+}
+}
   .content{
     position: relative;
   }
