@@ -1,5 +1,5 @@
 $("document").ready(function(){
-$("#bar").click(function(){
+  $("#bar").click(function(){
    $("#sidebar").animate({left: '0px'}, {speed: '0.05s'});
   })
   $("#times").click(function(){
@@ -52,8 +52,6 @@ $("#bar").click(function(){
   $("#g").click(function(){
     $("#sidebar").toggle()
   })
-})
-  $("document").ready(function(){
   $("#button").click(function(){
   var name=$("#name").val();
   var email=$("#email").val();
